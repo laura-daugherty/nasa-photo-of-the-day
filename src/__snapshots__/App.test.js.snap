@@ -4,22 +4,56 @@ exports[`<App /> should match snapshot 1`] = `
 <div
   className="App"
 >
-  <header>
+  <header
+    className="ui block header"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
     <img
-      src="public/nasa-logo-web-rgb.png"
+      alt="NASA logo"
+      className="ui small image"
+      src="nasa-logo-web-rgb.png"
+      style={
+        Object {
+          "height": "auto",
+          "width": "150px",
+        }
+      }
     />
-    <h2
-      className="ui center aligned icon header"
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "marginLeft": "30px",
+        }
+      }
     >
-      Nasa is cool
-    </h2>
+      <h1
+        className="ui left aligned header"
+        style={
+          Object {
+            "marginBottom": "0px",
+          }
+        }
+      >
+        NASA Astronomy Picture of the Day
+      </h1>
+      <h2
+        className="ui left aligned header"
+      >
+        Fetching your Title
+      </h2>
+    </div>
   </header>
   <div
-    class="ui active inverted dimmer"
+    className="ui active inverted dimmer"
   >
     <div
-      class="ui large text loader"
-      className="ui text loader"
+      className="ui text loader ui large text loader"
     >
       Fetching Your Photo
     </div>
@@ -27,26 +61,60 @@ exports[`<App /> should match snapshot 1`] = `
 </div>
 `;
 
-exports[`<Heading /> should match snapshot 1`] = `
-<header>
+exports[`<Header /> should match snapshot 1`] = `
+<header
+  className="ui block header"
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
   <img
-    src="public/nasa-logo-web-rgb.png"
+    alt="NASA logo"
+    className="ui small image"
+    src="nasa-logo-web-rgb.png"
+    style={
+      Object {
+        "height": "auto",
+        "width": "150px",
+      }
+    }
   />
-  <h2
-    className="ui center aligned icon header"
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "marginLeft": "30px",
+      }
+    }
   >
-    Nasa is cool
-  </h2>
+    <h1
+      className="ui left aligned header"
+      style={
+        Object {
+          "marginBottom": "0px",
+        }
+      }
+    >
+      NASA Astronomy Picture of the Day
+    </h1>
+    <h2
+      className="ui left aligned header"
+    >
+      Fetching your Title
+    </h2>
+  </div>
 </header>
 `;
 
 exports[`<Hero /> should match snapshot 1`] = `
 <div
-  class="ui active inverted dimmer"
+  className="ui active inverted dimmer"
 >
   <div
-    class="ui large text loader"
-    className="ui text loader"
+    className="ui text loader ui large text loader"
   >
     Fetching Your Photo
   </div>

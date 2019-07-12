@@ -28,7 +28,7 @@ describe('<Hero />', () => {
   });
 });
 
-describe('<Heading />', () => {
+describe('<Header />', () => {
   it('should match snapshot', () => {
     const tree = renderer.create(<Header />).toJSON();
 
