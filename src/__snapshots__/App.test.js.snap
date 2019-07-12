@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="ui block header"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <img
+      alt="NASA logo"
+      className="ui small image"
+      src="nasa-logo-web-rgb.png"
+      style={
+        Object {
+          "height": "auto",
+          "width": "150px",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "marginLeft": "30px",
+        }
+      }
+    >
+      <h1
+        className="ui left aligned header"
+        style={
+          Object {
+            "marginBottom": "0px",
+          }
+        }
+      >
+        NASA Astronomy Picture of the Day
+      </h1>
+      <h2
+        className="ui left aligned header"
+      >
+        Fetching your Title
+      </h2>
+    </div>
+  </header>
+  <div
+    className="ui active inverted dimmer"
+  >
+    <div
+      className="ui text loader ui large text loader"
+    >
+      Fetching Your Photo
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Header /> should match snapshot 1`] = `
+<header
+  className="ui block header"
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
+  <img
+    alt="NASA logo"
+    className="ui small image"
+    src="nasa-logo-web-rgb.png"
+    style={
+      Object {
+        "height": "auto",
+        "width": "150px",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "marginLeft": "30px",
+      }
+    }
+  >
+    <h1
+      className="ui left aligned header"
+      style={
+        Object {
+          "marginBottom": "0px",
+        }
+      }
+    >
+      NASA Astronomy Picture of the Day
+    </h1>
+    <h2
+      className="ui left aligned header"
+    >
+      Fetching your Title
+    </h2>
+  </div>
+</header>
+`;
+
+exports[`<Hero /> should match snapshot 1`] = `
+<div
+  className="ui active inverted dimmer"
+>
+  <div
+    className="ui text loader ui large text loader"
+  >
+    Fetching Your Photo
+  </div>
+</div>
+`;
