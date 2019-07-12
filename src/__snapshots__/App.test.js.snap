@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <img
+      src="public/nasa-logo-web-rgb.png"
+    />
+    <h2
+      className="ui center aligned icon header"
+    >
+      Nasa is cool
+    </h2>
+  </header>
+  <div
+    class="ui active inverted dimmer"
+  >
+    <div
+      class="ui large text loader"
+      className="ui text loader"
+    >
+      Fetching Your Photo
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Heading /> should match snapshot 1`] = `
+<header>
+  <img
+    src="public/nasa-logo-web-rgb.png"
+  />
+  <h2
+    className="ui center aligned icon header"
+  >
+    Nasa is cool
+  </h2>
+</header>
+`;
+
+exports[`<Hero /> should match snapshot 1`] = `
+<div
+  class="ui active inverted dimmer"
+>
+  <div
+    class="ui large text loader"
+    className="ui text loader"
+  >
+    Fetching Your Photo
+  </div>
+</div>
+`;
